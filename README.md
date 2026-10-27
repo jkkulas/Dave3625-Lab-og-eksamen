@@ -1,3 +1,8 @@
+# Eksamensverktøy
+
+I /sample_exam/, kjør index.html med live server for å øve på eksamen. Testen har 400+ spørsmål som den trekker tilfeldig. Man kan se resultatet senere og se hva man bommet på, med lenker som kobler til materiellet spørsmålet ble generert fra.
+
+
 # Intro to AI — DAVE3625, Høst 2026
 
 Lab repository for **DAVE3625** at OsloMet.
