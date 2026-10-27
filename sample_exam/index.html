@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DAVE3625 · Exam studio</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="mark">D</span><span>DAVE3625 <small>EXAM STUDIO</small></span></a><nav aria-label="Main"><button id="home-nav" class="quiet">Overview</button><button id="history-nav" class="quiet">Past exams <span id="history-count">0</span></button></nav><span class="semester">AUTUMN / 2026</span></header>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <main id="app"><p class="loading">Loading your study space…</p></main>
+  <footer>Independent practice tool · DAVE3625 Introduction to Artificial Intelligence <a href="README.md" target="_blank">How it works ↗</a></footer>
+  <dialog id="submit-dialog"><form method="dialog"><p class="eyebrow">FINISH ATTEMPT</p><h2>Ready to hand it in?</h2><p id="submit-summary"></p><p>After submission, you can review every answer and its study references.</p><div class="actions"><button value="cancel" class="secondary">Keep working</button><button value="submit" class="primary">Submit exam</button></div></form></dialog>
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>

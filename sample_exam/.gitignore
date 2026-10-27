@@ -1,0 +1,5 @@
+.tools/
+results/*.json
+results/*.tmp
+node_modules/
+test-results/
