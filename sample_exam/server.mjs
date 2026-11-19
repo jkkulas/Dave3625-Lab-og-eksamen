@@ -42,7 +42,8 @@ export const server=http.createServer(async(req,res)=>{
     if(req.method!=='GET'&&req.method!=='HEAD')return json(res,405,{error:'Method not allowed.'});
     const pathname=decodeURIComponent(['/', '/sample_exam/'].includes(url.pathname)?'/sample_exam/index.html':url.pathname);
     const segments=pathname.split(/[\\/]/).filter(Boolean);
-    if(segments.some(s=>s.startsWith('.')||s==='results'||s==='node_modules')||!['sample_exam','Powerpoints','Lab0','Lab1','Lab2','Lab3','Lab4','Lab5','Lab6','Mandatory_Assignments'].includes(segments[0])) return json(res,403,{error:'Path is not served.'});
+    if(segments[0]==='exams' && (segments.length!==2 || path.extname(segments[1]).toLowerCase()!=='.pdf')) return json(res,403,{error:'Only exam PDFs are served.'});
+    if(segments.some(s=>s.startsWith('.')||s==='results'||s==='node_modules')||!['sample_exam','exams','Powerpoints','Lab0','Lab1','Lab2','Lab3','Lab4','Lab5','Lab6','Mandatory_Assignments'].includes(segments[0])) return json(res,403,{error:'Path is not served.'});
     const file=path.resolve(root,...segments);
     if(!file.startsWith(root+path.sep))return json(res,403,{error:'Invalid path.'});
     const real=await fs.realpath(file); if(!real.startsWith(root+path.sep))return json(res,403,{error:'Invalid path.'});

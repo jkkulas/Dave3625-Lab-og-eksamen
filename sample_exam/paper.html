@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Source papers · DAVE3625</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="mark">D</span><span>DAVE3625 <small>EXAM STUDIO</small></span></a><a href="index.html#source-papers">← Practice overview</a></header>
+  <div id="notice" role="status"></div>
+  <main class="paper-reader">
+    <h1 id="paper-title">Source paper</h1>
+    <p id="description"></p>
+    <p id="summary" aria-live="polite"></p>
+    <section id="reader" hidden>
+      <div class="section-title"><label>Question <select id="jump"></select></label><span id="answered" class="small"></span></div>
+      <article class="panel question-panel">
+        <span class="pill" id="meta"></span>
+        <h2 id="prompt" tabindex="-1"></h2>
+        <pre id="code" hidden></pre>
+        <fieldset id="response"></fieldset>
+        <div id="feedback" class="callout" hidden></div>
+        <div class="question-nav"><button id="prev" class="secondary">← Previous</button><button id="next" class="primary">Next question →</button></div>
+      </article>
+      <div class="section-title paper-actions"><a id="pdf" target="_blank" rel="noopener">Open original question ↗</a><button id="finish" class="secondary">Finish paper</button></div>
+    </section>
+  </main>
+  <script type="module" src="paper.mjs"></script>
+</body>
+</html>

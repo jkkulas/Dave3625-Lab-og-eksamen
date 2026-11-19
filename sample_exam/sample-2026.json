@@ -1,0 +1,137 @@
+[
+  {
+    "number": 1,
+    "page": 1,
+    "part": "A",
+    "points": 1,
+    "kind": "single",
+    "prompt": "A model predicts the price of a used car from its age, its mileage and its brand. What is the label in this task?",
+    "options": [
+      "The age of the car",
+      "The price of the car",
+      "The brand of the car",
+      "The mileage and the age together"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 2,
+    "page": 2,
+    "part": "A",
+    "points": 1,
+    "kind": "single",
+    "prompt": "A small team has five salaries. One salary is ten times higher than the others (an outlier). Which value is least affected by this outlier?",
+    "options": [
+      "The mean",
+      "The highest value",
+      "The median",
+      "The sum of all salaries"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 3,
+    "page": 2,
+    "part": "A",
+    "points": 1,
+    "kind": "single",
+    "prompt": "In one of the labs you counted the values in a column with pandas. What does this code print?",
+    "code": "import pandas as pd\ndf = pd.DataFrame({\"city\": [\"Oslo\", \"Bergen\", \"Oslo\", \"Tromsø\", \"Oslo\"]})\nprint(df[\"city\"].value_counts().iloc[0])",
+    "options": [
+      "Oslo",
+      "3",
+      "5",
+      "1"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 4,
+    "page": 3,
+    "part": "A",
+    "points": 1,
+    "kind": "single",
+    "prompt": "When you train a neural network, what is one epoch?",
+    "options": [
+      "One neuron in the network",
+      "One layer of the network",
+      "One prediction for one example",
+      "One full pass through all the training data"
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "number": 5,
+    "page": 3,
+    "part": "B",
+    "points": 2,
+    "kind": "multiple",
+    "prompt": "Which of these are examples of generative AI?",
+    "options": [
+      "A model writes a short story from a prompt.",
+      "A model marks an e-mail as spam or not spam.",
+      "A model creates an image from a text description.",
+      "A model predicts tomorrow’s electricity price."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "number": 6,
+    "page": 4,
+    "part": "B",
+    "points": 2,
+    "kind": "multiple",
+    "prompt": "Which statements about a confusion matrix are correct?",
+    "options": [
+      "It is only used for regression models.",
+      "It shows how many examples of each true class were predicted as each class.",
+      "The numbers on the diagonal are the mistakes.",
+      "Precision and recall can be calculated from it."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "number": 7,
+    "page": 5,
+    "part": "B",
+    "points": 2,
+    "kind": "multiple",
+    "prompt": "Which statements about the learning rate are correct?",
+    "options": [
+      "The model learns the learning rate by itself during training.",
+      "A smaller learning rate always gives a better model.",
+      "If it is too large, training can jump past the best point and become unstable.",
+      "The learning rate is the number of epochs."
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 8,
+    "page": 5,
+    "part": "C",
+    "points": 5,
+    "kind": "written",
+    "prompt": "A company wants to use an AI model to sort job applications and pick out the best candidates. The model is trained on the company’s hiring decisions from the last ten years.\n(a) Give two risks with this plan.\n(b) Suggest two things the company should do before it uses the model.",
+    "rubric": [
+      "Award 1 point for each distinct relevant risk, up to 2. Examples include historical discrimination, decisions applicants cannot understand, privacy risks, and hiring data that no longer reflects the jobs.",
+      "Award 1 point for each distinct relevant action, up to 2. Examples include checking group outcomes for bias, keeping a human decision-maker, informing applicants and protecting their data, and testing on recent applications with ongoing monitoring.",
+      "Award 1 further point for a brief reason explaining an action."
+    ]
+  }
+]

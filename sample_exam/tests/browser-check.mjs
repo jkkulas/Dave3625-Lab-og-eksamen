@@ -11,6 +11,44 @@ const page=await context.newPage();const errors=[];const created=[];
 page.on('pageerror',e=>errors.push(e.message));
 try {
   await page.goto(origin+'/sample_exam/index.html');await page.getByRole('button',{name:'Start a new exam'}).waitFor();
+  await page.getByRole('link',{name:/Professor’s 2026 sample/}).click();
+  const published = JSON.parse(await fs.readFile(new URL('../sample-2026.json',import.meta.url),'utf8'));
+  const jump = page.locator('#jump');
+  for (const [index, question] of published.entries()) {
+    await jump.selectOption({value:String(index)});
+    if (question.kind === 'written') {
+      await page.getByRole('textbox').fill('Audit group outcomes and keep human oversight.');
+    } else {
+      const type = question.kind === 'multiple' ? 'checkbox' : 'radio';
+      assert.equal(await page.getByRole(type).count(),4);
+      for (const choice of question.correct) await page.getByRole(type,{name:question.options[choice],exact:true}).check();
+    }
+  }
+  await page.reload();
+  assert.equal(await page.getByRole('textbox').inputValue(),'Audit group outcomes and keep human oversight.');
+  page.once('dialog',d=>d.accept());
+  await page.getByRole('button',{name:'Finish paper',exact:true}).click();
+  await page.getByText(/Practice score 10 \/ 10.*5 written points/).waitFor();
+  await jump.selectOption({value:'7'});
+  await page.getByLabel('Your self-mark').selectOption('4');
+  await page.getByText(/Practice score 14 \/ 15/).waitFor();
+  await page.getByRole('link',{name:/Practice overview/}).click();
+  await page.getByRole('link',{name:/December 2025 exam/}).click();
+  assert.equal(await jump.locator('option').count(),125);
+  await jump.selectOption({value:'7'});
+  assert.equal(await page.getByRole('radio').count(),3);
+  await jump.selectOption({value:'99'});
+  assert.match(await page.locator('#code').innerText(),/df\.isnull\(\)\.sum\(\)/);
+  const pdfLink=await page.locator('#pdf').getAttribute('href');
+  assert.match(pdfLink,/#page=42$/);
+  assert.equal((await page.request.get(new URL(pdfLink,page.url()).href)).status(),200);
+  await jump.selectOption({value:'124'});
+  page.once('dialog',d=>d.accept());
+  await page.getByRole('button',{name:'Finish paper',exact:true}).click();
+  await page.getByText('Practice score 0 / 109',{exact:true}).waitFor();
+  await jump.selectOption({value:'48'});
+  await page.getByText('Discussion only · excluded from score').waitFor();
+  await page.getByRole('link',{name:/Practice overview/}).click();
   await page.screenshot({path:new URL('../.tools/home.png',import.meta.url).pathname.replace(/^\/([A-Z]:)/i,'$1'),fullPage:true});
   await page.getByRole('button',{name:'Start a new exam'}).click();await page.locator('input[name=answer]').first().check();await page.getByRole('button',{name:'⚐ Flag',exact:true}).click();
   const before=await page.evaluate(()=>JSON.parse(localStorage.getItem('dave3625.active.v1')));created.push(before.id);

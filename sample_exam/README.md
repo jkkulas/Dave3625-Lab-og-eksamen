@@ -22,7 +22,21 @@ Live Server is a static server: it cannot automatically write files into the rep
 
 Do not open `index.html` directly using a `file://` URL: browsers restrict loading the question bank that way. The site uses no external fonts or network services and works offline once served locally.
 
-## Exam behaviour
+## How the two papers compare
+
+Choose **Professor’s 2026 sample** or **December 2025 exam** under **Practise the source papers**. Both open as untimed papers with browser-saved progress and links to the original PDF pages. Finish a paper to reveal its answers.
+
+| | Independent timed practice | December 2025 exam | Professor’s 2026 sample |
+| --- | --- | --- | --- |
+| Questions | 80 drawn from 400 | 125 single-answer questions | 8 examples worth 15 points |
+| Response format | 64 single-answer, 16 checkboxes | One choice from three or four | 4 single-answer, 3 checkboxes, 1 written |
+| Scoring in the tool | 1 point each, practice grade out of 80 | Independent study answers for 109 questions. The other 16 have discussion notes | Published key for Parts A and B. Self-mark Part C against the five-point rubric |
+
+The professor specifies **80 questions and 120 points** for the 2026 final. Part A has 55 single-answer questions at 1 point, Part B has 20 exact-match checkbox questions at 2 points, and Part C has 5 written answers at 5 points. A checkbox question can have just one correct choice, as sample question 7 illustrates. Sample question 8 asks for about 80–150 words in English or Norwegian. The tool shows the English questions and links to all three language versions in the sample PDF. The professor explicitly excludes the sample questions themselves from the final.
+
+The original bank closely parallels the sample on epochs, unstable learning rates, confusion matrices, pandas counts and historical hiring bias. The hiring sample requires explaining risks and proposing actions in writing. The 2025 paper also covers KNN, SVMs, bias and variance, and reading pandas code. It gives more attention to dated AI Index figures, model releases and transparency trends than the independent bank does. Its PDF contains a candidate’s choices without an official key. Study answers were assigned independently and ambiguous questions are excluded from the score.
+
+## Randomised MCQ practice
 
 - 80 questions, 80 points, four hours. Each question is worth one point.
 - 64 single-answer questions and 16 checkbox questions. Checkbox answers require the exact correct set, with no partial credit. Wrong and unanswered questions score zero; there is no negative marking.
@@ -52,7 +66,7 @@ These topic weights and question-type proportions are **practice choices**, not 
 
 Read [coverage and supplementary notes](study-notes.html#coverage). Book links use exact PDF page numbers, matching the book's printed Page footer. PowerPoint references use actual slide positions, not inconsistent footer numbers. Browsers may download PowerPoints and notebooks rather than display them; the locator tells you where to look after opening them.
 
-The examination guide includes possible short-answer questions; this tool deliberately implements the requested multiple-choice simulator. Elements of AI is not used as a standalone examinable source. The selected AI Index readings, later lecture decks and Assignment 3 are missing from this checkout. Detailed neural-network, prompting and some responsible-AI questions therefore reference explicitly labelled, generated supplementary notes, not invented course pages. Add the missing course resources before relying on this as full final-syllabus coverage. The tool is an aid for learning, not an official exam or a grade prediction.
+The earlier examination guide describes an 80-point paper. The randomised MCQ mode follows that guide. The professor’s sample gives the more specific 120-point final format above. Elements of AI is not used as a standalone examinable source. The selected AI Index readings, later lecture decks and Assignment 3 are missing from this checkout. Detailed neural-network, prompting and some responsible-AI questions therefore reference explicitly labelled, generated supplementary notes, not invented course pages. Add the missing course resources before relying on this as full final-syllabus coverage. The tool is an aid for learning, not an official exam or a grade prediction.
 
 Some course examples contain shortcuts or inconsistent wording. The coverage notes explain corrections used in the bank (leakage, stock-price regression, residuals, conditional independence, etc.).
 

@@ -1,0 +1,1872 @@
+[
+  {
+    "number": 1,
+    "page": 9,
+    "prompt": "What is a downstream transparency indicator?",
+    "options": [
+      "Data quality",
+      "Compute cost",
+      "Usage policy and distribution",
+      "Number of parameters"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 2,
+    "page": 9,
+    "prompt": "What is the most common release method for notable AI models in 2024?",
+    "options": [
+      "Open weights unrestricted",
+      "API access",
+      "Hosted without API",
+      "Unreleased"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "note": "The 2025 AI Index, figure 1.3.8, identifies API access as the most frequent release type for notable models in 2024.",
+    "reference": "aiIndex"
+  },
+  {
+    "number": 3,
+    "page": 9,
+    "prompt": "What is one advantage of open-source models?",
+    "options": [
+      "They always perform better",
+      "They provide more upstream transparency",
+      "They use no compute",
+      "They do not need data"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 4,
+    "page": 10,
+    "prompt": "What is a common issue in LLMs regarding bias?",
+    "options": [
+      "They have no bias",
+      "They only have gender bias",
+      "They may still show implicit bias",
+      "Bias only comes from hardware"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 5,
+    "page": 10,
+    "prompt": "What's the best approach to handling outliers?",
+    "options": [
+      "Always remove outliers",
+      "The treatment depends on the specific context and problem",
+      "Only exclude them from training data",
+      "Keep them only in test data"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 6,
+    "page": 10,
+    "prompt": "How is logistic regression classified?",
+    "options": [
+      "As a regression algorithm",
+      "As a classification algorithm",
+      "As an association algorithm",
+      "As a clustering algorithm"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 7,
+    "page": 11,
+    "prompt": "The describe() function serves what purpose?",
+    "options": [
+      "It presents the top rows of your data",
+      "It creates statistical summaries for quantitative columns",
+      "It finds null entries in your dataset",
+      "It renders distribution graphs"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 8,
+    "page": 11,
+    "prompt": "If provided with a labeled dataset of student complaints from OsloMet’s feedback center, which type of algorithm would you employ to assess whether students are angry or happy?",
+    "options": [
+      "Regression",
+      "Classification",
+      "Clustering"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 9,
+    "page": 11,
+    "prompt": "Where have AI systems already surpassed human-level performance?",
+    "options": [
+      "Competition mathematics problems",
+      "Understanding visual content and processing English language",
+      "Complex strategic planning",
+      "Reasoning about visual common sense"
+    ],
+    "kind": "single",
+    "note": "The comparison depends on the benchmark, evaluation date and definition of human performance. The question gives none of these."
+  },
+  {
+    "number": 10,
+    "page": 12,
+    "prompt": "How do regression and classification differ in their evaluation strategies?",
+    "options": [
+      "Evaluation approaches are identical for both types",
+      "Regression employs metrics like MSE; classification uses accuracy or F1 Score",
+      "Regression relies on clustering metrics; classification uses reinforcement techniques",
+      "Both depend solely on the dataset characteristics for evaluation"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 11,
+    "page": 12,
+    "prompt": "What makes achieving fairness in AI particularly challenging?",
+    "options": [
+      "Insufficient access to training datasets",
+      "Fairness varies by context and is difficult to define and measure",
+      "Lack of computational resources",
+      "Excessive energy requirements"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 12,
+    "page": 12,
+    "prompt": "What type of data is becoming restricted on the web?",
+    "options": [
+      "Shopping data",
+      "Images only",
+      "Web text used for AI training",
+      "Audio files"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 13,
+    "page": 13,
+    "prompt": "Which pattern suggests your regression model is overfitting?",
+    "options": [
+      "Training and test errors are both elevated",
+      "There's a large gap with training error much lower than test error",
+      "Training and test errors are approximately equal",
+      "Performance is uniform across all datasets"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 14,
+    "page": 13,
+    "prompt": "How would you identify the conda software tool?",
+    "options": [
+      "It's a language used for programming",
+      "It handles both dependency installation and isolated environment creation",
+      "It's a library focused on data analytics",
+      "It tracks changes in source code"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 15,
+    "page": 13,
+    "prompt": "What trend did the Transparency Index report show?",
+    "options": [
+      "Transparency scores are decreasing",
+      "Transparency scores are increasing",
+      "All companies are fully transparent",
+      "Transparency is no longer measured"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "note": "This asks about the improvement between the 2023 and 2024 Transparency Index editions discussed in the 2025 AI Index.",
+    "reference": "aiIndex"
+  },
+  {
+    "number": 16,
+    "page": 14,
+    "prompt": "To import CSV file contents into a DataFrame, which function should you call?",
+    "options": [
+      "pd.load_csv()",
+      "pd.open_csv()",
+      "pd.read_csv()",
+      "pd.import_csv()"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 17,
+    "page": 14,
+    "prompt": "What is a common fairness concern in AI?",
+    "options": [
+      "Fast GPUs",
+      "Differences in model performance across groups",
+      "File size limits",
+      "Internet speed"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 18,
+    "page": 14,
+    "prompt": "How would you characterize a multimodal AI system?",
+    "options": [
+      "One that specializes only in code generation",
+      "One that processes and integrates various data types including text, images, and audio",
+      "One designed exclusively for text analysis",
+      "One optimized only for robotic applications"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 19,
+    "page": 15,
+    "prompt": "When training and dev/test data come from different distributions, what's the recommended approach?",
+    "options": [
+      "Ignore this issue",
+      "Make the dataset smaller",
+      "Investigate the discrepancy and gather more representative training data",
+      "Make the model more complex"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 20,
+    "page": 15,
+    "prompt": "What term describes an observation that deviates substantially from other data points?",
+    "options": [
+      "Labeled data",
+      "Outlier",
+      "Synthetic data"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 21,
+    "page": 15,
+    "prompt": "Under which ML category does linear regression fall?",
+    "options": [
+      "Unsupervised learning",
+      "Supervised learning",
+      "Reinforcement learning",
+      "Recommender systems"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 22,
+    "page": 16,
+    "prompt": "How does Machine Learning Yearning suggest you should configure your dev and test sets?",
+    "options": [
+      "Make them as minimal as possible",
+      "Ensure they mirror the distribution you expect in real-world deployment",
+      "Use random splitting",
+      "Combine them together"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 23,
+    "page": 16,
+    "prompt": "Within the SVM framework, how are support vectors defined?",
+    "options": [
+      "Points that lie farthest from the decision boundary",
+      "The training samples closest to the decision boundary",
+      "Training samples selected randomly",
+      "Samples the model incorrectly classifies"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 24,
+    "page": 16,
+    "prompt": "In ML terminology, what is \"artificial data synthesis\"?",
+    "options": [
+      "Using exclusively simulated data",
+      "Enhancing existing data through augmentation to generate additional training examples",
+      "Generating entirely novel data without any source",
+      "Collecting data from alternative sources"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 25,
+    "page": 17,
+    "prompt": "When predicting continuous numeric outcomes like stock market prices, why choose regression?",
+    "options": [
+      "It uses fewer computing resources than other approaches",
+      "Regression outputs are numerical, matching the continuous nature of stock prices",
+      "It delivers perfect accuracy across all problem types",
+      "It handles categorical inputs without preprocessing"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 26,
+    "page": 17,
+    "prompt": "Which country produced the most influential highly-cited AI research?",
+    "options": [
+      "China",
+      "USA",
+      "France",
+      "Japan"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "note": "The 2025 AI Index distinguishes the United States’ lead in highly cited research from China’s lead in publication volume.",
+    "reference": "aiIndex"
+  },
+  {
+    "number": 27,
+    "page": 17,
+    "prompt": "Which claim about hyperplanes is incorrect?",
+    "options": [
+      "They serve as classification decision boundaries",
+      "You're restricted to a maximum of 2 hyperplanes regardless of dimensionality",
+      "They're central to SVM algorithms"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 28,
+    "page": 18,
+    "prompt": "How is \"optimal error rate\" defined?",
+    "options": [
+      "Achieving zero errors",
+      "The lowest error achievable by any possible model",
+      "The error measured on training data",
+      "The average of training and testing errors"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 29,
+    "page": 18,
+    "prompt": "For hyperplanes, what's the maximum number of dimensions possible?",
+    "options": [
+      "10-dimensional",
+      "2-dimensional",
+      "3-dimensional",
+      "n-dimensional (equal to the number of features)"
+    ],
+    "kind": "single",
+    "note": "The intended idea appears to be that there is no fixed upper limit. In an n-dimensional feature space, a hyperplane itself has dimension n − 1."
+  },
+  {
+    "number": 30,
+    "page": 18,
+    "prompt": "What is a key assumption of the Naive Bayes algorithm?",
+    "options": [
+      "All features depend on each other in a hierarchy",
+      "Given the class label, each feature is independent of others",
+      "Normalization must be applied first",
+      "Your target must be a continuous variable"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 31,
+    "page": 19,
+    "prompt": "What is one reason fewer notable models were released in 2024?",
+    "options": [
+      "AI stopped developing",
+      "Larger and more complex training runs",
+      "Lack of interest",
+      "Bans on research"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 32,
+    "page": 19,
+    "prompt": "For addressing a problematic ML pipeline, what solution does Machine Learning Yearning propose?",
+    "options": [
+      "Just modify the learning rate",
+      "Simply add more data",
+      "Completely redesign the pipeline",
+      "Only increase model complexity"
+    ],
+    "kind": "single",
+    "note": "The appropriate pipeline change depends on which stage causes the errors. The question gives no diagnosis that establishes a complete redesign as the answer."
+  },
+  {
+    "number": 33,
+    "page": 19,
+    "prompt": "Which two fundamental sources of error impact ML system performance?",
+    "options": [
+      "Underfitting and overfitting",
+      "Bias and variance",
+      "Training error and test error",
+      "False positives and false negatives"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 34,
+    "page": 20,
+    "prompt": "Regarding generative AI, what issue most concerns policymakers?",
+    "options": [
+      "Decreasing investment from private sector",
+      "Growing expenses for model training",
+      "The risk of creating deepfakes and spreading misinformation",
+      "Effects on workforce productivity"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 35,
+    "page": 20,
+    "prompt": "What country produced the most AI publications in 2023?",
+    "options": [
+      "USA",
+      "China",
+      "UK",
+      "Germany"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 36,
+    "page": 20,
+    "prompt": "AI is commonly associated with which industrial revolution?",
+    "options": [
+      "Fifth industrial revolution",
+      "Fourth industrial revolution",
+      "Third industrial revolution",
+      "Sixth industrial revolution"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 37,
+    "page": 21,
+    "prompt": "What technology is frequently exploited to generate political misinformation?",
+    "options": [
+      "Image compression algorithms",
+      "Generative AI systems",
+      "Speech recognition technology",
+      "Natural language processing"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 38,
+    "page": 21,
+    "prompt": "What is explainability in AI?",
+    "options": [
+      "The speed of computation",
+      "Understanding why the AI made a decision",
+      "The number of parameters",
+      "The cost of inference"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 39,
+    "page": 21,
+    "prompt": "AI advancement has accelerated progress in which areas?",
+    "options": [
+      "Medical applications",
+      "Robotics engineering",
+      "Natural language processing",
+      "All of these areas"
+    ],
+    "kind": "single",
+    "correct": [
+      3
+    ]
+  },
+  {
+    "number": 40,
+    "page": 22,
+    "prompt": "Even when using an appropriate algorithm, what can lead to disappointing model results?",
+    "options": [
+      "Having an excessive number of data rows",
+      "Using training data that's imbalanced or lacks diversity",
+      "Running too many training iterations",
+      "Not visualizing the data before algorithm selection"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 41,
+    "page": 22,
+    "prompt": "What are LLMs increasingly trained on?",
+    "options": [
+      "Tiny datasets",
+      "Only images",
+      "Massive web-scale text",
+      "No data at all"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 42,
+    "page": 22,
+    "prompt": "In 2023, what major AI regulation did the European Union adopt?",
+    "options": [
+      "AI Liability Directive",
+      "General Data Protection Regulation (GDPR)",
+      "AI Act",
+      "Digital Services Act"
+    ],
+    "kind": "single",
+    "note": "The AI Act is the apparent intended choice. The EU reached provisional agreement in December 2023 and formally adopted the Act in 2024.",
+    "reference": "aiAct"
+  },
+  {
+    "number": 43,
+    "page": 23,
+    "prompt": "In classification tasks, what range do sigmoid function outputs fall within?",
+    "options": [
+      "0 to 1000",
+      "0 to 1",
+      "0 to 10",
+      "0 to 100"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 44,
+    "page": 23,
+    "prompt": "Which approach or approaches handle null values in DataFrames?",
+    "options": [
+      "Only fillna() works",
+      "dropna() and fillna() both work",
+      "Only dropna() works",
+      "None of these methods work"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 45,
+    "page": 23,
+    "prompt": "For detecting data points that fall outside the normal range, which visualization is preferred?",
+    "options": [
+      "Line plot",
+      "Box plot",
+      "Pie chart",
+      "Bar chart"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 46,
+    "page": 24,
+    "prompt": "What represents a major public worry about AI?",
+    "options": [
+      "Limited availability of AI systems",
+      "Proliferation of false information and hallucinated content",
+      "Poor computational efficiency",
+      "Increasing training expenses"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 47,
+    "page": 24,
+    "prompt": "What does upstream transparency refer to?",
+    "options": [
+      "How users interact with a model",
+      "Data, labor, and compute used in training",
+      "Deployment rules",
+      "Product pricing"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 48,
+    "page": 24,
+    "prompt": "When working with data manipulation in Python, which library is the standard choice?",
+    "options": [
+      "NumPy",
+      "pandas",
+      "scikit-learn",
+      "seaborn"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 49,
+    "page": 25,
+    "prompt": "Which sector had zero notable AI models in 2024?",
+    "options": [
+      "Industry",
+      "Academia",
+      "Government",
+      "Research collectives"
+    ],
+    "kind": "single",
+    "note": "Figure 1.3.5 of the 2025 AI Index shows zero for academia, government and research collectives as standalone sectors in 2024. Several options fit.",
+    "reference": "aiIndex"
+  },
+  {
+    "number": 50,
+    "page": 25,
+    "prompt": "When you access the shape attribute of a DataFrame, what do you receive?",
+    "options": [
+      "Total memory consumed by the structure",
+      "Just the row quantity",
+      "A tuple indicating row count and column count",
+      "Sum of all elements present"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 51,
+    "page": 25,
+    "prompt": "What type of transparency deals with real-world system monitoring?",
+    "options": [
+      "Upstream",
+      "Model-level",
+      "Operational transparency",
+      "Downstream"
+    ],
+    "kind": "single",
+    "note": "Monitoring a deployed system is an operational activity. Reporting on post-deployment monitoring also falls within downstream transparency."
+  },
+  {
+    "number": 52,
+    "page": 26,
+    "prompt": "You need 15 years of data to predict income but only have 5 years available. What is your best approach?",
+    "options": [
+      "Feature engineering",
+      "Synthetic data generation",
+      "Data anonymization",
+      "Data warehousing"
+    ],
+    "kind": "single",
+    "note": "Synthetic data can model scenarios, but cannot recover missing historical observations. The right approach depends on why the 15-year history is needed."
+  },
+  {
+    "number": 53,
+    "page": 26,
+    "prompt": "What's the main advantage of examining learning curves in model evaluation?",
+    "options": [
+      "To directly compare multiple algorithms",
+      "To see the model's structure",
+      "To identify and diagnose bias and variance problems",
+      "To troubleshoot the training procedure"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 54,
+    "page": 26,
+    "prompt": "What does this code achieve?",
+    "options": [
+      "It applies normalization to model features",
+      "It separates predictor variables from the target outcome",
+      "It converts quality into a binary category",
+      "It creates training and test partitions"
+    ],
+    "code": "X = df.drop(['quality', 'quality_binary'], axis=1)\ny = df['quality_binary']",
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 55,
+    "page": 27,
+    "prompt": "What innovation is accelerating robotics advancement?",
+    "options": [
+      "Moving away from neural networks to symbolic AI",
+      "Combining generative AI models with conventional robotics",
+      "Better techniques for image processing",
+      "Using reduced dataset sizes"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 56,
+    "page": 27,
+    "prompt": "What is a mitigation strategy in AI?",
+    "options": [
+      "A method to reduce risks",
+      "Increasing parameters",
+      "Removing transparency",
+      "Reducing model weights"
+    ],
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 57,
+    "page": 27,
+    "prompt": "What's a notable limitation of end-to-end learning approaches?",
+    "options": [
+      "They only work with specialized hardware",
+      "They limit access to data",
+      "They lack the flexibility of modular approaches",
+      "They demand high computational resources, are challenging to debug, and need large datasets"
+    ],
+    "kind": "single",
+    "note": "Both reduced modularity and difficulty diagnosing failures can be limitations. Resource and data requirements depend on the task."
+  },
+  {
+    "number": 58,
+    "page": 28,
+    "prompt": "Under what circumstances is it acceptable to train and test on different distributions?",
+    "options": [
+      "When test and training data are identical",
+      "When your training data doesn't adequately represent the target environment",
+      "When the model reaches perfect accuracy",
+      "When you have very limited data available"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 59,
+    "page": 28,
+    "prompt": "Upon discovering incorrectly labeled samples in your dev set, what's the best course of action?",
+    "options": [
+      "Delete all incorrectly labeled examples",
+      "Only fix labels that meaningfully affect your evaluation results",
+      "Immediately correct every single mislabeled example",
+      "Ignore them unless they surpass a certain percentage"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 60,
+    "page": 28,
+    "prompt": "An eCommerce site wants to suggest products based on customer purchase history - which technique fits best?",
+    "options": [
+      "Association",
+      "Clustering",
+      "Classification"
+    ],
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 61,
+    "page": 29,
+    "prompt": "What happens to model training datasets over time?",
+    "options": [
+      "They decrease",
+      "They double every few years",
+      "They double roughly every eight months",
+      "They become irrelevant"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ],
+    "note": "The eight-month estimate in the 2025 AI Index refers specifically to historical growth in LLM training dataset size.",
+    "reference": "aiIndex"
+  },
+  {
+    "number": 62,
+    "page": 29,
+    "prompt": "What's the main reason modern ML avoids 70/30 train/test divisions?",
+    "options": [
+      "It demands too much processing power",
+      "Such splits may not reflect the actual distribution of future data",
+      "It lowers training performance",
+      "It creates unwanted bias"
+    ],
+    "kind": "single",
+    "note": "Split proportions and representativeness are separate decisions. Dataset size, deployment conditions and the precision required of evaluation all matter."
+  },
+  {
+    "number": 63,
+    "page": 29,
+    "prompt": "What is a risk associated with synthetic data?",
+    "options": [
+      "It is always better than real data",
+      "It is impossible to detect",
+      "It may reduce quality if overused",
+      "It removes the need for training"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 64,
+    "page": 30,
+    "prompt": "This code performs what action?",
+    "options": [
+      "It creates a new binary column that's 1 when quality meets or exceeds 7, otherwise 0",
+      "It adds a column with randomly generated 0s and 1s",
+      "It changes quality values directly to either 1 or 0 based on a threshold",
+      "It filters and removes rows where quality falls below 7"
+    ],
+    "code": "df['quality_binary'] = np.where(df['quality'] >= 7, 1, 0)",
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 65,
+    "page": 30,
+    "prompt": "Consider this code. What does it do ?",
+    "options": [
+      "It evaluates how well the logistic regression performs",
+      "It instantiates a logistic regression model and fits it using training samples",
+      "It generates predictions via the logistic regression approach",
+      "It shows the coefficient values from logistic regression"
+    ],
+    "code": "from sklearn.linear_model import LogisticRegression\nmodel = LogisticRegression()\nmodel.fit(X_train, y_train)",
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 66,
+    "page": 31,
+    "prompt": "What is the purpose of Responsible AI (RAI)?",
+    "options": [
+      "Increase model speed",
+      "Ensure AI is safe, fair, and trustworthy",
+      "Reduce compute resources",
+      "Remove human involvement"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 67,
+    "page": 31,
+    "prompt": "When you create bins and group data, which summary statistics are computed?",
+    "options": [
+      "Mean, Mode, Count",
+      "Average, Lowest value, Highest value, Frequency",
+      "Count, Standard Deviation, Mean",
+      "Mean, Median, Mode, Count"
+    ],
+    "code": "buckets = pd.cut(Grc_Concat_df['Item_Weight'], bins=10)\nbucket_stats = df.groupby(buckets).agg(['mean', 'min', 'max', 'count'])",
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 68,
+    "page": 31,
+    "prompt": "What danger exists when you include excessive features?",
+    "options": [
+      "Learning becomes simpler",
+      "The model might memorize noise rather than learning true patterns",
+      "Performance is guaranteed to improve",
+      "Generalization automatically gets better"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 69,
+    "page": 32,
+    "prompt": "Which area remains highly opaque according to the transparency report?",
+    "options": [
+      "Compute availability",
+      "Data access and copyright status",
+      "GPU pricing",
+      "Benchmark performance"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 70,
+    "page": 32,
+    "prompt": "Examine this code. What does it do ?",
+    "options": [
+      "It allocates 80% of data for training and reserves 20% for testing",
+      "It shuffles data without creating any split",
+      "It reserves 20% for training and 80% for testing",
+      "It sets up data for cross-validation procedures"
+    ],
+    "code": "from sklearn.model_selection import train_test_split\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)",
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 71,
+    "page": 32,
+    "prompt": "What drives the growing use of human evaluation for AI benchmarks?",
+    "options": [
+      "Automated benchmarks have become outdated",
+      "Human judgment is essential for assessing generative model quality",
+      "Human evaluation is quicker than automated testing",
+      "It's more cost-effective"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 72,
+    "page": 33,
+    "prompt": "What is a key goal of transparency in AI?",
+    "options": [
+      "Making models faster",
+      "Allowing people to understand how decisions are made",
+      "Reducing model size",
+      "Increasing competition"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 73,
+    "page": 33,
+    "prompt": "When using algorithms such as KNN or SVM, what makes normalizing features important?",
+    "options": [
+      "It reduces how much data you have",
+      "It allows the model to treat all features with equal importance",
+      "It fixes problems with missing values",
+      "It makes every algorithm perform better"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "note": "Scaling helps keep features measured in large units from dominating distances. Features can still differ in predictive importance."
+  },
+  {
+    "number": 74,
+    "page": 33,
+    "prompt": "Which error is referred to as \"bias\" in machine learning?",
+    "options": [
+      "Error measured on the development set",
+      "Error measured on training data",
+      "Error measured on test data",
+      "The gap between training and dev errors"
+    ],
+    "kind": "single",
+    "note": "Training error can help diagnose underfitting. Bias is a systematic error and cannot generally be equated with the measured training error."
+  },
+  {
+    "number": 75,
+    "page": 34,
+    "prompt": "What has happened to inference costs over time?",
+    "options": [
+      "They increased",
+      "They remained constant",
+      "They dropped significantly",
+      "They are unpredictable"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 76,
+    "page": 34,
+    "prompt": "How has the gap between open-weight and closed-weight models changed?",
+    "options": [
+      "It has widened",
+      "It has disappeared",
+      "It has slightly narrowed",
+      "Open models no longer exist"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 77,
+    "page": 34,
+    "prompt": "What is a common risk identified by leaders according to surveys?",
+    "options": [
+      "Marketing",
+      "Inaccuracy",
+      "Social media growth",
+      "Fashion trends"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 78,
+    "page": 35,
+    "prompt": "What challenge is increasing for AI training?",
+    "options": [
+      "Data abundance",
+      "Data scarcity and restrictions",
+      "Low energy costs",
+      "More academic compute"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 79,
+    "page": 35,
+    "prompt": "Which population group has suffered most from biases in AI systems?",
+    "options": [
+      "Wealthy demographics",
+      "Ethnic minorities",
+      "Senior citizens",
+      "AI research community"
+    ],
+    "kind": "single",
+    "note": "The question supplies no population, outcome, or measure that would support a ranking of harm across these groups."
+  },
+  {
+    "number": 80,
+    "page": 35,
+    "prompt": "Is there always a definitive optimal K value in KNN?",
+    "options": [
+      "Yes, it's always equal to the square root of your sample size",
+      "No, it requires estimation through techniques like cross-validation and depends on your data",
+      "Yes, there's a universal formula that works for all datasets",
+      "No, it's completely arbitrary and unpredictable"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 81,
+    "page": 36,
+    "prompt": "According to the book, Machine Learning Yearning, what initial action should you take when launching a new machine learning project?",
+    "options": [
+      "Design the perfect system architecture upfront",
+      "Quickly build and train a basic working system",
+      "Invest months researching cutting-edge techniques",
+      "Collect the largest possible dataset first"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 82,
+    "page": 36,
+    "prompt": "What's the fundamental reason for splitting data into training and test portions?",
+    "options": [
+      "To make the model architecture simpler",
+      "To evaluate performance on unseen data and get realistic performance estimates",
+      "To facilitate data randomization",
+      "To combine outputs from multiple models"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 83,
+    "page": 36,
+    "prompt": "Infrared sensors capture the infrared energy emitted by body heat, and when hands approach, the resulting fluctuation triggers a pump to dispense sanitizer. This setup is an example of:",
+    "options": [
+      "Automated machine",
+      "AI machine",
+      "Deep Learning machine"
+    ],
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 84,
+    "page": 37,
+    "prompt": "Given an unlabeled dataset of X-ray images from COVID patients, where labeling is not an option, which algorithm would be best suited to determine if a patient is COVID positive?",
+    "options": [
+      "Classification",
+      "Clustering",
+      "Regression"
+    ],
+    "kind": "single",
+    "note": "Clustering can find similar images without labels. Establishing which patients are positive requires diagnostic ground truth or a validated link to it."
+  },
+  {
+    "number": 85,
+    "page": 37,
+    "prompt": "What's driving the accelerated adoption of AI technology?",
+    "options": [
+      "Increased data availability",
+      "All of these factors",
+      "Enhanced cloud computing capabilities",
+      "More powerful processors"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 86,
+    "page": 37,
+    "prompt": "What's a necessary prerequisite before you build a decision tree model?",
+    "options": [
+      "Running PCA on your data",
+      "Converting all features to continuous values",
+      "Creating separate training and test datasets",
+      "Removing categorical variables entirely"
+    ],
+    "kind": "single",
+    "note": "A train/test split supports independent evaluation. A decision tree can be fitted without one, so none of the choices is a necessary prerequisite."
+  },
+  {
+    "number": 87,
+    "page": 38,
+    "prompt": "What is a foundation model?",
+    "options": [
+      "A small specialized model",
+      "A model trained on broad data used for many tasks",
+      "A video-only AI system",
+      "A model that cannot be fine-tuned"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 88,
+    "page": 38,
+    "prompt": "Which of the following best describes the K-Nearest Neighbors (KNN) algorithm?",
+    "options": [
+      "A supervised learning algorithm that classifies a data point based on how its neighbors are classified.",
+      "An unsupervised learning algorithm used for clustering data into k groups.",
+      "A supervised learning algorithm that builds a model based on a linear combination of features.",
+      "A reinforcement learning algorithm used to predict future actions."
+    ],
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 89,
+    "page": 38,
+    "prompt": "Which benchmark tests reasoning across many subjects?",
+    "options": [
+      "MNIST",
+      "MMLU",
+      "CIFAR-10",
+      "COCO"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 90,
+    "page": 39,
+    "prompt": "What does operational transparency describe?",
+    "options": [
+      "Training parameters",
+      "How the system behaves in deployment",
+      "GPU efficiency",
+      "User satisfaction"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 91,
+    "page": 39,
+    "prompt": "In the ML workflow, what purpose does a dev set serve?",
+    "options": [
+      "To extend model training",
+      "To fine tune hyperparameters",
+      "To substitute for the test set",
+      "To standardize the data"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 92,
+    "page": 39,
+    "prompt": "Why do we maintain a separate test set?",
+    "options": [
+      "To minimize training duration",
+      "To find and fix errors during training",
+      "To obtain an unbiased assessment of how the final model will perform",
+      "To tune parameters while training"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 93,
+    "page": 40,
+    "prompt": "What role does K play in the KNN algorithm?",
+    "options": [
+      "It determines how many nearby training samples influence predictions",
+      "It indicates the number of clusters being formed",
+      "It specifies how many input variables to use",
+      "It defines the depth of the neural network"
+    ],
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 94,
+    "page": 40,
+    "prompt": "Why do large models need more compute?",
+    "options": [
+      "They have fewer parameters",
+      "They train on more data",
+      "They have no inputs",
+      "They require no training"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 95,
+    "page": 40,
+    "prompt": "Which learning paradigm involves agents learning from environmental feedback?",
+    "options": [
+      "Supervised learning",
+      "Recommender systems",
+      "Reinforcement learning",
+      "Unsupervised learning"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 96,
+    "page": 41,
+    "prompt": "If adding new features causes a substantial improvement in evaluation metrics, what's the likely explanation?",
+    "options": [
+      "The additional features are irrelevant",
+      "Your model is underfitting",
+      "The new features help the model identify patterns more effectively",
+      "There's something fundamentally wrong with the model"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 97,
+    "page": 41,
+    "prompt": "What's the rationale for keeping dev and test sets from the same distribution?",
+    "options": [
+      "To boost training performance",
+      "To reduce total data requirements",
+      "To maintain consistent assessment and minimize uncertainty",
+      "To increase evaluation variability"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 98,
+    "page": 41,
+    "prompt": "In machine learning workflows, what makes feature selection valuable?",
+    "options": [
+      "It increases the model's complexity level",
+      "It ensures every available feature gets utilized",
+      "It reduces the feature count to boost performance and avoid overfitting",
+      "It picks features at random for the model"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 99,
+    "page": 42,
+    "prompt": "What is the result of running this code?",
+    "options": [
+      "Column 0 and 6 are dropped.",
+      "Row 0 to 6 are dropped.",
+      "Column 0 to 6 are dropped.",
+      "Row 0 and 6 are dropped."
+    ],
+    "code": "df = df.drop(df.columns[[0, 6]], axis=1)",
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 100,
+    "page": 42,
+    "prompt": "Running this code produces which result?",
+    "options": [
+      "A 2, B 1, C 0",
+      "A 1, B 1, C 1",
+      "A 2, B 1, C 3",
+      "A 2, B 1, C 1"
+    ],
+    "code": "data = {\n'A': [1, 8, np.nan, None],\n'B': [5, None, 7, 8],\n'C': ['X', '', 'None', ' ']\n}\ndf = pd.DataFrame(data)\nnull_check = df.isnull().sum()\nprint(null_check)",
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 101,
+    "page": 43,
+    "prompt": "The observation that \"Most facial recognition training data consists predominantly of white faces\" exemplifies what problem?",
+    "options": [
+      "Overfitting",
+      "Data imbalance",
+      "Data Bias",
+      "Underfitting"
+    ],
+    "kind": "single",
+    "note": "Underrepresentation can describe both a demographic imbalance and sampling bias. The choices overlap."
+  },
+  {
+    "number": 102,
+    "page": 43,
+    "prompt": "Which classifier assumes all features are independent within each class?",
+    "options": [
+      "Polynomial regression",
+      "Linear regression",
+      "Naive Bayes algorithm",
+      "Logistic regression"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 103,
+    "page": 43,
+    "prompt": "What is one environmental concern about AI scaling?",
+    "options": [
+      "GPU shortages",
+      "Rapid increase in carbon emissions",
+      "Slow model growth",
+      "Small datasets"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 104,
+    "page": 44,
+    "prompt": "Which sector produces most notable AI models?",
+    "options": [
+      "Academia",
+      "Government",
+      "Industry",
+      "Research collectives"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 105,
+    "page": 44,
+    "prompt": "Which organization released the most notable AI models (2014–2024 total)?",
+    "options": [
+      "MIT",
+      "Meta",
+      "Stanford",
+      "Google"
+    ],
+    "kind": "single",
+    "correct": [
+      3
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 106,
+    "page": 44,
+    "prompt": "What is a key benefit of synthetic data?",
+    "options": [
+      "Unlimited supply",
+      "100 percent accuracy",
+      "Requires no compute",
+      "Cannot fail"
+    ],
+    "kind": "single",
+    "note": "Synthetic data can be generated on demand. Calling the supply unlimited overlooks resource constraints and the limits of the generating model."
+  },
+  {
+    "number": 107,
+    "page": 45,
+    "prompt": "In 2024, which country released the highest number of notable AI models?",
+    "options": [
+      "India",
+      "China",
+      "USA",
+      "UK"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 108,
+    "page": 45,
+    "prompt": "For a large dev set, what partitioning strategy does Machine Learning Yearning suggest?",
+    "options": [
+      "Maintain it as a single comprehensive dev set",
+      "Apply cross-validation exclusively",
+      "Divide it into Eyeball and Blackbox portions",
+      "Split it into training, dev, and test sections"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 109,
+    "page": 45,
+    "prompt": "Which learning type primarily uses labeled data?",
+    "options": [
+      "Reinforcement learning",
+      "Supervised learning",
+      "Unsupervised learning"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 110,
+    "page": 46,
+    "prompt": "For models struggling with high variance, what's the most effective remedy?",
+    "options": [
+      "Randomly eliminate some features",
+      "Acquire and use more training examples",
+      "Decrease training iterations",
+      "Adopt more sophisticated architectures"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 111,
+    "page": 46,
+    "prompt": "What does downstream impact measure?",
+    "options": [
+      "Token count",
+      "User safety and societal effects",
+      "Server uptime",
+      "Parameter count"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 112,
+    "page": 46,
+    "prompt": "What distinguishes attributes from features in a dataset?",
+    "options": [
+      "Features represent raw data; attributes are the processed version",
+      "Attributes are raw measurements; features are engineered representations",
+      "They're identical concepts",
+      "Features are always more complex"
+    ],
+    "kind": "single",
+    "note": "Attribute and feature are often synonyms. A course may distinguish raw attributes from engineered features, but the question gives no convention."
+  },
+  {
+    "number": 113,
+    "page": 47,
+    "prompt": "What's accurate about Support Vector Machines?",
+    "options": [
+      "They're limited to problems with linear separability",
+      "They handle both linearly separable and non-linear classification tasks",
+      "They can't be adapted for regression applications",
+      "The choice of kernel doesn't significantly impact results"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 114,
+    "page": 47,
+    "prompt": "Why would you create new features from your original dataset columns?",
+    "options": [
+      "To reduce how much space the data occupies",
+      "To provide the model with more meaningful representations for better predictions",
+      "To make all features use identical scaling",
+      "To filter out data that doesn't matter"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 115,
+    "page": 47,
+    "prompt": "What's a significant disadvantage of deploying very large neural networks?",
+    "options": [
+      "They inevitably overfit",
+      "They demand significantly greater computational resources",
+      "They fail to learn even simple functions",
+      "They always produce high bias"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 116,
+    "page": 48,
+    "prompt": "What does the Responsible AI chapter highlight about incidents?",
+    "options": [
+      "Incidents are declining",
+      "Incident reports reached a record high",
+      "Incidents are not tracked anymore",
+      "All incidents are solved immediately"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 117,
+    "page": 48,
+    "prompt": "What is inference?",
+    "options": [
+      "Training a model",
+      "Running a model to generate outputs",
+      "Designing hardware",
+      "Cleaning datasets"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 118,
+    "page": 48,
+    "prompt": "What doubled every five months according to the report?",
+    "options": [
+      "GPU speed",
+      "Model training compute",
+      "AI salaries",
+      "Token prices"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 119,
+    "page": 49,
+    "prompt": "What is a sign that AI research is accelerating?",
+    "options": [
+      "Fewer patents filed",
+      "Declining publication counts",
+      "More patents and publications",
+      "No new models produced"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 120,
+    "page": 49,
+    "prompt": "Which of the following best describes the Support Vector Machine (SVM) algorithm in machine learning?",
+    "options": [
+      "A supervised learning algorithm that predicts continuous numerical values.",
+      "An unsupervised learning algorithm used for clustering data into groups.",
+      "A supervised learning algorithm that finds the optimal hyperplane which maximizes the margin between different classes.",
+      "A reinforcement learning algorithm that learns optimal actions through trial and error."
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 121,
+    "page": 49,
+    "prompt": "What factor is most essential for effective machine learning implementation?",
+    "options": [
+      "Employing the most sophisticated algorithms available",
+      "Concentrating only on architectural design",
+      "Following proven strategies and industry best practices",
+      "Gathering the absolute largest dataset"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ]
+  },
+  {
+    "number": 122,
+    "page": 50,
+    "prompt": "When you need to organize DataFrame rows based on a specific column's values in increasing order, what method is appropriate?",
+    "options": [
+      "df.sort_values(by='column_name')",
+      "df.arrange('column_name')",
+      "df.sort('column_name')",
+      "df.order_by('column_name')"
+    ],
+    "kind": "single",
+    "correct": [
+      0
+    ]
+  },
+  {
+    "number": 123,
+    "page": 50,
+    "prompt": "When a model exhibits high bias, what does this signal?",
+    "options": [
+      "It's overfitting the training data",
+      "The model underfits and fails to capture training data patterns",
+      "Training and test data don't match",
+      "Variance is also high"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  },
+  {
+    "number": 124,
+    "page": 50,
+    "prompt": "What is the trend in AI model sizes?",
+    "options": [
+      "They are shrinking",
+      "They remain the same",
+      "They are getting larger",
+      "They are becoming unnecessary"
+    ],
+    "kind": "single",
+    "correct": [
+      2
+    ],
+    "reference": "aiIndex"
+  },
+  {
+    "number": 125,
+    "page": 51,
+    "prompt": "What's the primary AI concern in electoral contexts?",
+    "options": [
+      "Declining use of poll data",
+      "Spreading false information via deepfake technology",
+      "Lower voter participation",
+      "Greater transparency in voting processes"
+    ],
+    "kind": "single",
+    "correct": [
+      1
+    ]
+  }
+]

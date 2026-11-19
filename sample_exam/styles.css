@@ -3,4 +3,18 @@
 @media(max-width:850px){.hero{grid-template-columns:1fr;gap:25px}.hero h1{max-width:650px}.layout{grid-template-columns:1fr}.exam-layout{grid-template-columns:1fr}.map{grid-template-columns:repeat(10,1fr)}.semester{display:none}.topbar{gap:15px;justify-content:space-between}.topbar button{padding:10px}.question-panel{padding:22px}.result-hero{flex-wrap:wrap}.hero{margin-top:0}}
 @media(max-width:480px){main{padding:25px 16px 50px}.brand{font-size:13px}.mark{width:34px;height:34px}.topbar{padding:15px 16px}.topbar nav{gap:0}.topbar button{font-size:11px;padding:8px}.panel{padding:20px}.topic-row{grid-template-columns:1fr 60px 40px;gap:10px}.hero-card{padding:24px}.map{grid-template-columns:repeat(8,1fr)}.timer{font-size:20px}.question-nav button{font-size:12px;padding:12px}.history-card{flex-wrap:wrap}.result-score{font-size:44px}footer{flex-direction:column}}
 @media(prefers-reduced-motion:no-preference){button,.option{transition:background .15s,border-color .15s}}
+.source-papers{margin-bottom:25px;scroll-margin:20px}
+.source-papers p,.paper-reader #description{max-width:75ch;line-height:1.65;color:var(--muted)}
+.paper-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
+.paper-links a{padding:16px;background:#f4f6ed;border:1px solid var(--border);border-radius:9px;text-decoration:none}
+.paper-links a:hover strong{text-decoration:underline}
+.paper-links span{display:block;margin-top:6px;font-size:13px;line-height:1.5;color:var(--muted)}
+.paper-reader{max-width:850px}
+.paper-reader pre{padding:16px;background:#f4f6ed;border-radius:8px;white-space:pre-wrap;overflow-wrap:anywhere}
+.paper-reader fieldset{border:0;padding:0;margin:0;min-width:0}
+.paper-reader legend{color:var(--muted);font-size:14px;padding:0}
+.paper-reader textarea,.paper-reader select{font:inherit;color:inherit;padding:8px;border:1px solid var(--border);border-radius:8px;background:#fff}
+.paper-reader textarea{margin-top:12px;width:100%;resize:vertical;line-height:1.6}
+.paper-reader #summary:not(:empty){padding:16px;background:var(--lime);border-radius:8px;font-weight:600}
+.paper-reader .paper-actions{margin-top:18px;flex-wrap:wrap}
 @media print{.topbar,footer,.actions,.review-toolbar,#notice{display:none}main{max-width:none;padding:0}.panel{break-inside:avoid}.result-hero{color:black;background:white;border:1px solid #aaa}.result-hero .small,.result-hero .eyebrow{color:black}}
